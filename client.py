@@ -51,7 +51,7 @@ product_history = contract.functions.getProductHistory(product_id).call()
 print(f"Product history: {product_history}")
 
 # Transfer product ownership
-new_owner = "NEW_OWNER_ADDRESS"
+new_owner = "0xcdd1151b2bC256103FA2565475e686346CeFd813"
 nonce = w3.eth.get_transaction_count(user_address)
 transaction = {
     'from': user_address,
